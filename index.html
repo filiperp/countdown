@@ -1,16 +1,14 @@
 <html>
 	<head>
-        <title>IASD Vila Olímpia</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/flipclock.css">	
-		<link rel="stylesheet" href="css/styles.css">	
+      <title>IASD Vila Olímpia</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+  		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  		<link rel="stylesheet" href="css/flipclock.css">	
+  		<link rel="stylesheet" href="css/styles.css">	
 	</head>
-	<body>
-        
-        <div class="container" id="main-container">
-            
+	<body>  
+        <div class="container" id="main-container">    
              <div class="row">
                 <div class="col-xs-12">
                     <div class="text-center">
@@ -21,7 +19,6 @@
             </div>
              <div class="row " id="row-config">
                 <div class="col-xs-6 col-xs-offset-3 well ">
-                  
                     <form role="form-inline">
                       <div class="form-group col-xs-12">
                         <label for="inputMessage">Email address</label>
@@ -31,40 +28,33 @@
                         <label for="inputMin">Minutos</label>
                         <input type="text" class="form-control" id="inputMin" placeholder="Minutos" value="10">
                       </div>
-                       <div class="form-group col-xs-6" >
-                        <label for="inputSec">Segundos</label>
-                        <input type="text" class="form-control" id="inputSec" placeholder="Segundos" value="00">
+                        <div class="form-group col-xs-6" >
+                          <label for="inputSec">Segundos</label>
+                          <input type="text" class="form-control" id="inputSec" placeholder="Segundos" value="00">
                       </div>
-                        
-                         <div class="form-group col-xs-12 " >
-                        <button type="submit" class="btn btn-default btn-primary pull-right" id="btnInit">INICIAR!</button>
+                        <div class="form-group col-xs-12 " >
+                          <button type="submit" class="btn btn-default btn-primary pull-right" id="btnInit">INICIAR!</button>
                       </div>
-                     
                     </form>
-                                             
-                   
                 </div>
             </div>
             <div class="row"  id="row-clock">
                 <div class="col-xs-12">
                     <div class="text-center">
-                    <div class="clock"></div>
-                    <div class="message"></div>
-                  
+                      <div class="clock"></div>
+                      <div class="message"></div>
                     </div>   
                 </div>
             </div>
-           
-             <div class="row" id="row-final">
-                <div class="col-xs-12">
+             <div class="row " id="row-final">
+                <div class="col-xs-6 col-xs-offset-3">
                     <div class="text-center well">
-                        <h1 id="final-message">ACABOU!</h1>  
+                        <h1 class="bold" id="final-message">ACABOU!</h1>  
                     </div>   
-                  
                 </div>
             </div>
         </div>
-		<script src="js/jquery-2.1.1.min.js"></script>
+		    <script src="js/jquery-2.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flipclock.min.js"></script>
         <script src="js/app.js"></script>

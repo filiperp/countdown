@@ -32,6 +32,7 @@ function init(e){
                          $("#row-clock").fadeOut({
                              complete: function(e){
                                    $("#row-final").fadeIn();
+                                   setInterval(blinker, 2000);
                              }
                          });
                     }
@@ -47,6 +48,10 @@ function alignMiddle(e){
     $('#main-container').css({
         'margin-top':t+ 'px'
     });
+}
+
+function blinker() {
+    $('#row-final').fadeOut(500).fadeIn(500);
 }
 
    
